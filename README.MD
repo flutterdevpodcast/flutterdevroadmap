@@ -12,4 +12,10 @@
 
 # Роадмап
 
+Кликните на изображение, чтобы рассмотреть его в деталях.
+
 ![roadmap](/assets/roadmap/roadmap.png)
+
+# Скачать роадмап
+
+- [PNG](https://github.com/flutterdevpodcast/flutterdevroadmap/blob/master/assets/roadmap/roadmap.png?raw=true)
