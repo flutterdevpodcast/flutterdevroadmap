@@ -15,30 +15,8 @@
 <edge COLOR="#33ff00" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1586758682687" HGAP="41" ID="ID_1911400782" MODIFIED="1586852196840" POSITION="right" TEXT="Data Types" VSHIFT="62">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      knowledge_base/general/programming_languages/dart/data_types
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1586758803819" HGAP="48" ID="ID_1789061597" MODIFIED="1586852179031" POSITION="right" TEXT="Variables" VSHIFT="8">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      knowledge_base/general/programming_languages/dart/variables
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1586758682687" HGAP="41" ID="ID_1911400782" MODIFIED="1586863091316" POSITION="right" TEXT="Data Types" VSHIFT="62"/>
+<node CREATED="1586758803819" HGAP="48" ID="ID_1789061597" MODIFIED="1586863093496" POSITION="right" TEXT="Variables" VSHIFT="8"/>
 <node CREATED="1586759056374" HGAP="44" ID="ID_803403004" MODIFIED="1586861108759" POSITION="right" TEXT="Collections" VSHIFT="-21">
 <node CREATED="1586759066169" HGAP="36" MODIFIED="1586759115705" TEXT="List" VSHIFT="-12"/>
 <node CREATED="1586759086671" HGAP="35" MODIFIED="1586759139215" TEXT="Set" VSHIFT="-3"/>
