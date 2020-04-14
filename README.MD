@@ -20,3 +20,25 @@
 
 - [PNG](https://github.com/flutterdevpodcast/flutterdevroadmap/blob/master/assets/roadmap/roadmap.png?raw=true)
 - [MM](https://github.com/flutterdevpodcast/flutterdevroadmap/blob/master/assets/roadmap/roadmap.mm)
+
+# База знаний
+![header](/assets/img/under_construction.png)
+
+Роадмап - только верхушка айсберга. Это карта, которая помогает быстро сориентироваться на местности и наметить основные пути развития. Дальше начинается самое интересное: поиска правильных источников информации, дающих полное погружение в тему. В этом вам может помочь наша база знания.
+
+**База знаний находится в самом начале разработки.**
+
+## General 
+
+*Всё, что не относится напрямую к фреймворку, но сопутствует разработке. Ветки находятся в правой половине роадмапа.*
+
+### Programming languages
+
+- [Dart](/knowledge_base/general/programming_languages/dart)
+- Platform languages
+  - Android
+    - Kotlin
+    - Java 
+  - iOS
+    - Swift
+    - Objective C 
