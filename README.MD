@@ -22,6 +22,7 @@
 - [MM](https://github.com/flutterdevpodcast/flutterdevroadmap/blob/master/assets/roadmap/roadmap.mm)
 
 # База знаний
+
 ![header](/assets/img/under_construction.png)
 
 Роадмап - только верхушка айсберга. Это карта, которая помогает быстро сориентироваться на местности и наметить основные пути развития. Дальше начинается самое интересное: поиска правильных источников информации, дающих полное погружение в тему. В этом вам может помочь наша база знания.
@@ -34,7 +35,7 @@
 
 ### Programming languages
 
-- [Dart](/knowledge_base/general/programming_languages/dart)
+- [Dart](/knowledge_base/general/programming_languages/dart/dart.MD)
 - Platform languages
   - Android
     - Kotlin
