@@ -1,20 +1,32 @@
 // Функция, запускющая программу
 void main() {
-  //anonymous function
-  [1, 2, 3, 4, 5].forEach((num) => print("current num is $num"));
+  Function fn = outer();
+  fn(); // 1
+  fn(); // 2
+  fn(); // 3
 
-  // Create a function that adds 2.
-  var add2 = makeAdder(2);
+  Function func = multiply(5);
+  int result1 = func(6); // 30
+  print(result1); // 30
 
-  // Create a function that adds 4.
-  var add4 = makeAdder(4);
-
-  assert(add2(3) == 5);
-  assert(add4(3) == 7);
+  int result2 = func(5); // 25
+  print(result2); // 25
 }
 
-Function makeAdder(num addBy) {
-  return (num i) => addBy + i;
+//closure
+Function multiply(int n) {
+  return (int m) => n * m;
+}
+
+//closure
+Function outer() {
+  var n = 0;
+  void inner() {
+    n++;
+    print(n);
+  }
+
+  return inner;
 }
 
 // вложенные функции
