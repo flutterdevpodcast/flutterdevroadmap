@@ -1,9 +1,10 @@
-# Введение в Dart.
+# Введение в Dart
 
-## Ключевые Ресурсы
-> - https://dart.dev/ (EN) - официальный сайт
-> - https://dart.dev/tutorials (EN) - каталог официальных туториалов
-> - https://medium.com/dartlang (EN) - официальный блог на Medium
+## Ключевые ресурсы
+> - [dart.dev](https://dart.dev/) (EN) - официальный сайт
+> - [dart.dev/tutorials](https://dart.dev/tutorials) (EN) - каталог официальных туториалов
+> - [Dart Language Tour](https://dart.dev/guides/language/language-tour) (EN) - официальный обзор основных особенностей языка
+> - [dartlang on Medium](https://medium.com/dartlang) (EN) - официальный блог на Medium
 
 ## О языке
 **Dart** – объектно-ориентированный язык программирования, разработанный в Google.
