@@ -34,6 +34,10 @@ Dart – это язык, который легко изучить, синтак
 Intellij Idea), а так-же специально для тестирования и изучения языка был разработан DartPad – онлайн IDE,
 позволяющая выполнять чистый Dart код в Web среде.
 
+## Читать дальше 
+> - [Типы данных](./data_types/data_types.md)
+> - [Переменные](./variables/variables.md)
+
 ## Полезные ссылки
 - https://www.tutorialspoint.com/dart_programming/index.htm (EN) - это хороший сайт? Не работал с ним раньше. Нужно пояснить, что это
 - https://habr.com/ru/company/wrike/blog/343988/ (RU) - Пост про то, как правильно познакомиться с Dart
