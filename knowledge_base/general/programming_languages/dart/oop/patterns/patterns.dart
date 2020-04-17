@@ -19,43 +19,9 @@ class Sphere extends GameObject {
   int radius;
 }
 
-class SnowBall extends Sphere {
-  int damage = 10;
-}
-
-void main() {
-  var cube = Cube();
-  var sphere = Sphere();
-  var snowball = SnowBall();
-
-  if (cube is Cube) {
-    print("cube это Cube");
-  }
-  if (cube is GameObject) {
-    print("cube это GameObject");
-  }
-  if (snowball is Cube) {
-    print("snowball это Cube");
-  } else {
-    print("snowball это не Cube");
-  }
-
-  if (snowball is Sphere) {
-    print("snowball это Sphere");
-  }
-
-  GameObject snowSphere = SnowBall();
-
-  var snowBall_1 = snowSphere as SnowBall;
-  SnowBall snowBall_2 = snowSphere;
-
-  snowBall_1.damage = 2;
-  snowBall_2.damage = 3;
-}
-
 // polymorphism example
 class CanonBall extends Sphere {
-  int damage = 10;
+  final int damage = 10;
 
   void explosion() {
     ///пушечное ядро взрываться
@@ -66,8 +32,9 @@ class UraniumCannonBall extends CanonBall {
   @override
   int get damage => 1000;
 
-  @override
   void explosion() {
+    super.explosion();
+
     ///урановое пушечное ядро  взрывается очень сильно!
   }
 }
@@ -78,16 +45,108 @@ class Highwayman {
 
   get fuel => _fuel;
 
+  //публичный метод
+  //вызывается где-то из вне
   void goToWasteland() {
     _fuelController();
     _fuelRegulator();
   }
 
+  // внутренний метод
+  // управляющим объектам нет нужды знать как устроен топливный контроллер
+  //(чтобы не сломать)
   void _fuelController() {
     /// Без топливного контроллера машина не заведется
   }
 
   void _fuelRegulator() {
     /// Топливный регулятор уменьшает расход топлива при езде
+  }
+}
+
+//abstract class example
+abstract class Animal {
+  String breed;
+
+  void eat();
+
+  void sleep();
+
+  void hunt();
+
+  @override
+  String toString() {
+    return "Животное породы: $breed";
+  }
+}
+
+class Dog extends Animal {
+  @override
+  void eat() {
+    print("ест кости");
+  }
+
+  @override
+  void hunt() {
+    print("охотится на кошек");
+  }
+
+  @override
+  void sleep() {
+    print("спит в конуре");
+  }
+}
+
+class Touch {
+  // координата касания х
+  double touchX;
+
+  // координата касания y
+  double touchY;
+
+  // количество точек соприкосновения
+  int pointCount;
+}
+
+//interface example
+abstract class TouchEventListener {
+  void onTouchDown(Touch touch);
+
+  void onTouchUp(Touch touch);
+
+  void onTouchDrag(Touch touch);
+}
+
+class TouchHandler {
+  TouchEventListener touchEventListener;
+
+  TouchHandler(this.touchEventListener);
+
+  void touchDetect() {
+    // низкоуровневая реализация касаний...
+    // когда касание определено, срабатывает вызов интерфейса
+    touchEventListener.onTouchDown(Touch());
+    touchEventListener.onTouchUp(Touch());
+  }
+}
+
+class MainScreen implements TouchEventListener {
+  MainScreen() {
+    TouchHandler(this);
+  }
+
+  @override
+  void onTouchDown(Touch touch) {
+    print("Палец коснулся экрана в точке ${touch.touchX} ${touch.touchY}");
+  }
+
+  @override
+  void onTouchDrag(Touch touch) {
+    // TODO: implement onTouchDrag
+  }
+
+  @override
+  void onTouchUp(Touch touch) {
+    // TODO: implement onTouchUp
   }
 }

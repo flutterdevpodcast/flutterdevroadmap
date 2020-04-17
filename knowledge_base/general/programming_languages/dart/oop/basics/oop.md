@@ -1,6 +1,8 @@
 # ООП
 [На главную](../../dart.md)
 
+[Паттерны ООП](../patterns/patterns.md)
+
 ## Дополнительные материалы
 https://dart.dev/guides/language/language-tour#classes
 https://metanit.com/dart/tutorial/4.1.php
