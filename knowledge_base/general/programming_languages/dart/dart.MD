@@ -1,11 +1,13 @@
 # Введение в Dart
+## Список разделов
+> - [Типы данных](./data_types/data_types.md)
+> - [Переменные](./variables/variables.md)
 
 ## Ключевые ресурсы
 > - [dart.dev](https://dart.dev/) (EN) - официальный сайт
 > - [dart.dev/tutorials](https://dart.dev/tutorials) (EN) - каталог официальных туториалов
 > - [Dart Language Tour](https://dart.dev/guides/language/language-tour) (EN) - официальный обзор основных особенностей языка
 > - [dartlang on Medium](https://medium.com/dartlang) (EN) - официальный блог на Medium
-## Полезные ссылки
 > - https://habr.com/ru/company/wrike/blog/343988/ (RU) - Пост про то, как правильно познакомиться с Dart
 > - https://www.thepolyglotdeveloper.com/2019/04/building-simple-web-application-dart/ (EN) - пример простого веб приложения на Dart 
 > - https://dart-lang.github.io/server/server.html (EN) - о серверной разработке на Dart
@@ -42,7 +44,3 @@ Dart – объектно-ориентированный язык програм
 - Легок в освоении. Синтаксически похож на Java, JS и Swift 
 - Поддерживается популярными средствами разработки (Visual Code, Android Studio, Intellij Idea). Есть онлайн [dartpad](https://dartpad.dev/)
 - Hot reload позволяет вносить изменения в программу без повторной компиляции.
-
-## Читать дальше 
-> - [Типы данных](./data_types/data_types.md)
-> - [Переменные](./variables/variables.md)
