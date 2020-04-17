@@ -1,36 +1,43 @@
 # Условные операторы
+[На главную](../dart.MD)
 
+## Ключевые ресурсы
+> - https://dart.dev/guides/language/language-tour#if-and-else
+> - https://dart.dev/guides/language/language-tour#switch-and-case
+> - https://www.w3adda.com/dart-tutorial/dart-operators
+> - https://www.w3adda.com/dart-tutorial/dart-conditional-operators
+
+## Об условных операторах
 В языке Dart, как и в других остальных, есть условные операторы.
 Они необходимы, когда программе требуется обработать определённые
 сценарии работы при некоторых условиях. Например "Если у игрока меньше 
 10 жизней, предложить выпить зелье здоровья".
 
-##if else
+### if else
 Условный оператор if используется, когда нужно выполнить блок кода
 при определённом логическом условии. Если условие верно - выполнить первый сценарий,
 иначе выполнить второй сценарий.
 
 ![if](conditional_statement_sample_1.png)
 
-###else if
+### else if
 Иногда сценариев может быть больше. Тогда следует применить оператор else if
 
 ![elseif](conditional_statement_sample_2.png)
 
-###Множественные операторы выбора
+### Несколько условий в одном
 Если для выполнение определенного сценария необходимо проверить сразу несколько
 условий, можно их объединить в одну строку, при помощи логических операторов "and, or, xor, not".
 
 ![multiple if](conditional_statement_sample_3.png)
 
-###Вложенные условия
+### Вложенные условия
 Когда необходимо сделать цепочку условий, следующих одно за другим,
 можно вкладывать одно условие в другое.
 
 ![if chain](conditional_statement_sample_4.png)
 
-
-##switch
+### switch
 Условный оператор switch применятся, когда необходимо определить сценарии
 работы программы с заранее известным количеством условий. Например, необходимо
 по номеру месяца в году, определить сезон. Если ни одно условие не соответсвует
@@ -38,18 +45,7 @@
 
 ![switch](conditional_statement_sample_5.png)
 
-
-##Пример
+## Пример
 [conditional_statement.dart](conditional_statement.dart)
-
-## Дополнительные материалы
-
-https://dart.dev/guides/language/language-tour#if-and-else
-
-https://dart.dev/guides/language/language-tour#switch-and-case
-
-https://www.w3adda.com/dart-tutorial/dart-operators
-
-https://www.w3adda.com/dart-tutorial/dart-conditional-operators
 
 
