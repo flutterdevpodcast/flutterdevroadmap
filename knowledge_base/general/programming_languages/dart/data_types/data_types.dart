@@ -5,19 +5,19 @@ void main() {
   // int
   int testInt = 10;
   if (testInt.isEven) {
-    print("число ${testInt} четное");
+    print("Number ${testInt} is even");
   }
 
   // double
   double testDouble = 10.3;
-  print("пример округления ${testDouble.round()}");
+  print("round result ${testDouble.round()}");
 
   // bool
   bool isPowerOn = true;
   if (isPowerOn) {
-    print("питание включено");
+    print("Power on");
   } else {
-    print("питание выключено");
+    print("Power off");
   }
 
   // String
@@ -67,12 +67,12 @@ void main() {
 
   // check data type
   String a = "abc";
-  print("тип данных переменно а: ${a.runtimeType}");
+  print("data type of variable a is: ${a.runtimeType}");
   if (a.runtimeType == String) {
-    print("Точно, это строка");
+    print("It's a String!");
   }
   if (a is String) {
-    print("is тоже говорит что а это строка");
+    print("It's still a String!");
   }
 
   typeConversionExample();
@@ -132,17 +132,16 @@ class Client extends Person {
 
 void typeConversionExample() {
   // upcasting
-  Person person = Person("noname");
-  Person employeeIvan = Employee("Ivan", "Рога и Копыта", "Бухгалтер");
-  Person clientAlex = Client("Alex", "Лучший банк в мире", "12345678910");
+  Person employeeIvan = Employee("Ivan", "Very Good Company", "Director");
+  Person clientAlex = Client("Alex", "Very Good Bank", "12345678910");
 
   // downcasting
   Employee employee = employeeIvan;
-  final employee_1 = employeeIvan as Employee;
+  final employee1 = employeeIvan as Employee;
   print("employee position ${employee.position}");
-  print("employee_1 position ${employee_1.position}");
+  print("employee_1 position ${employee1.position}");
 
   // cast error
-  Employee employee_3 =
+  Employee employee3 =
       clientAlex; // Unhandled exception:type 'Client' is not a subtype of type 'Employee'
 }
