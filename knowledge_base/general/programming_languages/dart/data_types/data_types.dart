@@ -1,22 +1,26 @@
 import 'dart:math';
 
 void main() {
-//  int
+
+  // int
   int testInt = 10;
   if (testInt.isEven) {
     print("число ${testInt} четное");
   }
-  //double
+
+  // double
   double testDouble = 10.3;
   print("пример округления ${testDouble.round()}");
-  //bool
+
+  // bool
   bool isPowerOn = true;
   if (isPowerOn) {
     print("питание включено");
   } else {
     print("питание выключено");
   }
-  //String
+
+  // String
   String oneBracesString = 'mom washed';
   String twoBracesString = "the frame";
   String multiStrokeString = """
@@ -27,22 +31,27 @@ void main() {
   three""";
   String interpolationTest = "${oneBracesString} ${twoBracesString}";
   String strokeWithoutCommas = multiStrokeString.replaceAll(",", "");
-  //list
-  //not fixed list
+  
+  // list
+  
+  // not fixed list
   var indexList = [1, 2, 3, 3, 4, 4, 5, 5];
   List<String> namesList = ["Ivan", "Petr", "Maria"];
-  //fixed list
+  
+  // fixed list
   List<double> fixedList = List(3);
   fixedList[0] = 1.0;
   fixedList[1] = 2.0;
   fixedList[2] = 3.0;
-  //two dim list
+  
+  // two dim list
   List<List<int>> gameBoard = [
     [0, 0, 0],
     [1, 0, 1],
     [0, 1, 0]
   ];
-  //map
+  
+  // map
   Map<String, dynamic> dataFromJson = {
     "userName": "Ivan",
     "userSurname": "Petrov",
@@ -50,12 +59,13 @@ void main() {
     "position": "fullstack web developer",
     "skills": ["php", "mysql", "js", "html"],
   };
-  //set
-  Set<String> uniqueNames = {"ivan", "ivan", "maria", "petr"};
-  print(uniqueNames); // Второй иван будет откинут
-  test();
 
-  //check data type
+  // set
+  Set<String> uniqueNames = {"ivan", "ivan", "maria", "petr"};
+  print(uniqueNames);
+  customTypeTest();
+
+  // check data type
   String a = "abc";
   print("тип данных переменно а: ${a.runtimeType}");
   if (a.runtimeType == String) {
@@ -68,6 +78,7 @@ void main() {
   typeConversionExample();
 }
 
+// custom type example
 class CustomDataType {
   String typeName = "CustomDataType";
 
@@ -76,12 +87,12 @@ class CustomDataType {
   }
 }
 
-void test() {
+void customTypeTest() {
   CustomDataType customDataType = CustomDataType();
   customDataType.doBarrelRoll();
 }
 
-//type conversion example
+// type conversion example
 class Person {
   String name;
 
@@ -125,7 +136,7 @@ void typeConversionExample() {
   Person employeeIvan = Employee("Ivan", "Рога и Копыта", "Бухгалтер");
   Person clientAlex = Client("Alex", "Лучший банк в мире", "12345678910");
 
-  //downcasting
+  // downcasting
   Employee employee = employeeIvan;
   final employee_1 = employeeIvan as Employee;
   print("employee position ${employee.position}");
