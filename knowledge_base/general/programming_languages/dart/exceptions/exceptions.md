@@ -2,9 +2,9 @@
 [На главную](../dart.MD)
 
 ## Ключевые ресурсы
-> - https://dart.dev/guides/language/language-tour#exceptions
-> - https://api.dart.dev/stable/2.7.2/dart-core/Exception-class.html
-> - https://api.dart.dev/stable/2.7.2/dart-core/Error-class.html
+> - https://dart.dev/guides/language/language-tour#exceptions (EN) - документация по исключениям
+> - https://api.dart.dev/stable/2.7.2/dart-core/Exception-class.html (EN) - документация по классу Exception
+> - https://api.dart.dev/stable/2.7.2/dart-core/Error-class.html (EN) - документация по классу Error
 
 ## Об исключениях
 В ходе работы программы могут возникать непредвиденные ситуации.
