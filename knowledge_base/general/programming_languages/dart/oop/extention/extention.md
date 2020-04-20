@@ -2,7 +2,6 @@
 [К оглавлению](../oop.md)
 
 ## Ключевые ресурсы
->- https://medium.com/dartlang/extension-methods-2d466cd8b308 (EN) - подробная статья про использование расширений
 >- https://dart.dev/guides/language/language-tour#extension-methods (EN) - официальная документация
 >- https://dart.dev/guides/language/extension-methods (EN) - более подробная документация
 
@@ -39,3 +38,6 @@
 [average_of_nums.dart](average_of_nums.dart)
 
 [second_ext.dart](second_ext.dart)
+
+## Дополнительные материалы
+>- https://medium.com/dartlang/extension-methods-2d466cd8b308 (EN) - подробная статья про использование расширений

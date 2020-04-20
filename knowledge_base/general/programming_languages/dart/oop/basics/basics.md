@@ -1,7 +1,7 @@
 # ООП
 [К оглавлению](../oop.md)
 
-## Дополнительные материалы
+## Ключевые Ресурсы
 https://dart.dev/guides/language/language-tour#classes
 https://metanit.com/dart/tutorial/4.1.php
 https://metanit.com/dart/tutorial/4.2.php
@@ -124,4 +124,11 @@ _пример взят из книги Dart in Action-Chris Buckett_
 ![static](oop_sample_15.png)
 
 ## Пример
-[oop.dart](basics.dart)
+[oop.dart](oop.dart)
+
+## Дополнительные материалы
+Подробное описание ООП в дарт на Metanit
+
+https://metanit.com/dart/tutorial/4.1.php (RU)
+
+https://metanit.com/dart/tutorial/4.2.php (RU)
