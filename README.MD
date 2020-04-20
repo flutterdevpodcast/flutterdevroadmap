@@ -36,6 +36,8 @@
 ### Programming languages
 
 - [Dart](/knowledge_base/general/programming_languages/dart/dart.MD)
+  - [Data types](/knowledge_base/general/programming_languages/dart/data_types/data_types.md)
+  - [Variables](/knowledge_base/general/programming_languages/dart/variables/variables.md)
 - Platform languages
   - Android
     - Kotlin
