@@ -2,10 +2,8 @@
 [На главную](../dart.MD)
 
 ## Ключевые ресурсы
-> - https://dart.dev/guides/language/language-tour#if-and-else
-> - https://dart.dev/guides/language/language-tour#switch-and-case
-> - https://www.w3adda.com/dart-tutorial/dart-operators
-> - https://www.w3adda.com/dart-tutorial/dart-conditional-operators
+> - https://dart.dev/guides/language/language-tour#if-and-else (EN) - официальная документация по if
+> - https://dart.dev/guides/language/language-tour#switch-and-case (EN) - официальная документация по switch
 
 ## Об условных операторах
 В языке Dart, как и в других остальных, есть условные операторы.
@@ -48,4 +46,5 @@
 ## Пример
 [conditional_statement.dart](conditional_statement.dart)
 
-
+## Дополнительные материалы
+> - https://www.w3adda.com/dart-tutorial/dart-conditional-operators (EN) - подробная статья по условным операторам
