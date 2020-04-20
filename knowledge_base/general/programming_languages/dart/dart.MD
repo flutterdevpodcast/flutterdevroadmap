@@ -8,6 +8,7 @@
 > - [Условные операторы](./conditional_statements/conditional_statement.md)
 > - [ООП](./oop/oop.md)
 > - [Функции](./functions/functions.md)
+> - [Асинхронное программирование](asynchronous_programming/async.md)
 
 ## Ключевые ресурсы
 > - [dart.dev](https://dart.dev/) (EN, official) - официальный сайт
