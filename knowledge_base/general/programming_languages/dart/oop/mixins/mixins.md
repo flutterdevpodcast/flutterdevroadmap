@@ -1,4 +1,5 @@
 # Миксины
+[К оглавлению](../oop.md)
 
 ## Ключевые ресурсы
 > - https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins (EN) - официальная документация про миксины
