@@ -2,9 +2,7 @@
 [На главную](../../dart.md)
 
 ##Дополнительные материалы
-https://dart.dev/guides/language/language-tour#classes
-https://metanit.com/dart/tutorial/4.1.php
-https://metanit.com/dart/tutorial/4.2.php
+https://dart.dev/guides/language/language-tour#classes (EN) - официальная документация по классам
 
 Dart - объектно-ориентированный язык программирования.
 Модель ооп предполагает, что программа оперирует объектами.
@@ -125,3 +123,10 @@ _пример взят из книги Dart in Action-Chris Buckett_
 
 ## Пример
 [oop.dart](oop.dart)
+
+## Дополнительные материалы
+Подробное описание ООП в дарт на Metanit
+
+https://metanit.com/dart/tutorial/4.1.php (RU)
+
+https://metanit.com/dart/tutorial/4.2.php (RU)
