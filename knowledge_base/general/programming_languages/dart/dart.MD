@@ -3,6 +3,11 @@
 ## Оглавление
 > - [Типы данных](./data_types/data_types.md)
 > - [Переменные](./variables/variables.md)
+> - [Циклы](./loops/loops.md)
+> - [Исключения](./exceptions/exceptions.md)
+> - [Условные операторы](./conditional_statements/conditional_statement.md)
+> - [ООП](./oop/oop.md)
+> - [Функции](./functions/functions.md)
 
 ## Ключевые ресурсы
 > - [dart.dev](https://dart.dev/) (EN, official) - официальный сайт

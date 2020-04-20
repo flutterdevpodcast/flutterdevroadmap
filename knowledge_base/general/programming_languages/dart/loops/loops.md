@@ -2,8 +2,7 @@
 [На главную](../dart.md)
 
 ## Ключевые ресурсы
-https://dart.dev/guides/language/language-tour#control-flow-statements (EN) - оффдок по циклам
-https://medium.com/@liemvo/array-sort-algorithms-in-dart-language-c9ca270cedfb (EN) - примеры сортировок, выполненных с помощью циклов
+>- https://dart.dev/guides/language/language-tour#control-flow-statements (EN) - официальная документация по циклам
 
 ## О циклах
 Циклы позволяют в зависимости от определённых условий выполнять определённое действие множество раз.
@@ -97,3 +96,6 @@ https://medium.com/@liemvo/array-sort-algorithms-in-dart-language-c9ca270cedfb (
 
 ## Пример 
 [loops.dart](loops.dart)
+
+## Дополнительные материалы
+>- https://medium.com/@liemvo/array-sort-algorithms-in-dart-language-c9ca270cedfb (EN) - примеры сортировок, выполненных с помощью циклов
