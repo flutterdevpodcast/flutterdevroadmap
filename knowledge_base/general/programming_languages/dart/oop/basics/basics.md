@@ -1,7 +1,5 @@
 # ООП
-[На главную](../../dart.md)
-
-[Паттерны ООП](../patterns/patterns.md)
+[К оглавлению](../oop.md)
 
 ## Дополнительные материалы
 https://dart.dev/guides/language/language-tour#classes
@@ -126,4 +124,4 @@ _пример взят из книги Dart in Action-Chris Buckett_
 ![static](oop_sample_15.png)
 
 ## Пример
-[oop.dart](oop.dart)
+[oop.dart](basics.dart)
