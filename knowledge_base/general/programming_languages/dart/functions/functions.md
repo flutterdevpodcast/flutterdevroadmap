@@ -2,8 +2,7 @@
 [На главную](../dart.MD)
 
 ## Ключевые ресурсы
-> - https://dart.dev/guides/language/language-tour#lexical-closures
-> - https://livebook.manning.com/book/dart-in-action/chapter-4/1
+> - https://dart.dev/guides/language/language-tour#lexical-closures (EN) - официальная документация по функциям
 
 ## О функциях
 Когда программа становится больше 10 строчек когда, полезно использовать функции.
@@ -86,3 +85,6 @@ n и выводится на консоль. В конце функция outer 
 
 ## Пример
 [functions.dart](functions.dart)
+
+## Дополнительные материалы
+> - https://livebook.manning.com/book/dart-in-action/chapter-4/1 (EN) - глава про функции в книге "Dart in Action"
