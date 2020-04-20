@@ -1,8 +1,6 @@
 # Миксины
 
-## Дополнительные материалы
-> - https://habr.com/ru/post/484206/ (RU) - в статье рассказано когда необходимо применять миксины
-> - https://medium.com/flutter-community/dart-what-are-mixins-3a72344011f3 (EN) - еще одна подробная статья про миксины
+## Ключевые ресурсы
 > - https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins (EN) - официальная документация про миксины
 
 ## О миксинах
@@ -29,3 +27,10 @@
 - Используя ключевое слово `on`, применение миксина можно ограничить только в определенном типе данных. 
 
 ![on](mixin5.png)
+
+## Пример
+[mixins.dart](mixins.dart)
+
+## Дополнительные материалы
+> - https://habr.com/ru/post/484206/ (RU) - в статье рассказано когда необходимо применять миксины
+> - https://medium.com/flutter-community/dart-what-are-mixins-3a72344011f3 (EN) - еще одна подробная статья про миксины
