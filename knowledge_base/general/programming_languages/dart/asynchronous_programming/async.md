@@ -4,7 +4,7 @@
 
 [На главную](./../dart.MD)
 
-[Future async/await](future_async_await/future.dart) - Про тип данных Future и операторы async/await
+[Future async/await](streams_async_await/future.dart) - Про потоки: Stream, StreamController, Future, async/await
 
 ## Об асинхронном программировании
 Концепция асинхронного программирования подразумевает выполнение задач независимо друг от друга.
