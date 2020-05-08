@@ -3,17 +3,22 @@
 
 ## Оглавление
 [ui]
+
 [persistence]
+
 [networking]
+
 [async programming]
+
 [state managment]
+
 [internals]
 
 ## Ключевые ресурсы
--> https://flutter.dev/docs (EN) - офф. документация по Flutter
--> https://github.com/flutter/flutter - github 
--> https://medium.com/flutter - блог на  Medium
--> https://twitter.com/flutterdev - twitter
+>- https://flutter.dev/docs (EN) - офф. документация по Flutter
+>- https://github.com/flutter/flutter - github 
+>- https://medium.com/flutter - блог на  Medium
+>- https://twitter.com/flutterdev - twitter
 
 ## О Flutter
 Flutter - кроссплатформенный фреймворк для разработки приложений. В качестве языка программирования используется Dart.
@@ -35,8 +40,8 @@ JS. Dart - компилируется в бинарный код исполня�
 Перерисовка виджета происходит только в тот момент, когда в нем что-нибудь изменилось.
 
 - [Связь с нативной платформой](https://flutter.dev/docs/development/platform-integration/platform-channels).
-Для выполнения нативных операций Flutter может выполнять код, написанный на нативном 
-языке системы(Kotlin, Java, Swift).
+Для выполнения операций Flutter может выполнять код, написанный на нативном 
+языке системы(Kotlin, Java, Swift)
 
 - Hot Reload
 
@@ -45,6 +50,20 @@ JS. Dart - компилируется в бинарный код исполня�
 - Мобильная разработка. Ios, Android.
 - Веб разработка. Flutter web
 - Desktop разработка. Windows, Mac OS, Linux.
+
+### Установка
+Для работы с Flutter вам понадобится:
+- Mac OS, Linux, Windows
+- Установить Dart. 
+- Установить Flutter
+- Выбрать среду разаботки. [Android Studio](https://developer.android.com/studio/?gclid=Cj0KCQjwhtT1BRCiARIsAGlY51KUvdteQp3FJMgPawnCEtnuauZANJLDtwZNKrv287ssevpItlOJaB4aAkwlEALw_wcB&gclsrc=aw.ds)
+или [Visual Code](https://code.visualstudio.com/)
+
+Для настройки окружения необходимо выполнить пункты, описанные в [офф. документации](https://flutter.dev/docs/get-started/install)
+
+### Get started
+Работать с Flutter можно как с использованием среды разработки, так и с помощью консоли.
+Создание проекта подробно описано в [офф.документации](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio)
 
 ## Дополнительные материалы
 >- https://flutter.dev/docs/get-started/ (EN) - офф. гайдлайны по Flutter
