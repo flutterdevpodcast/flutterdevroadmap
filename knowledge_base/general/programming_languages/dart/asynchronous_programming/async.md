@@ -1,10 +1,12 @@
 # Асинхронное программирование
 В данном разделе собраны материалы по асинхронному программированию
-на дарт.
+в Dart.
 
 [На главную](./../dart.MD)
 
-[Future async/await](streams_async_await/future.dart) - Про потоки: Stream, StreamController, Future, async/await
+[Streams async/await](streams_async_await/streams.md) - про потоки: Stream, StreamController, Future, async/await
+
+[isolates](isolates/isolates.md) - про изоляты
 
 ## Об асинхронном программировании
 Концепция асинхронного программирования подразумевает выполнение задач независимо друг от друга.
