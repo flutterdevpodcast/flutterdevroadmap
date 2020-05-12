@@ -589,7 +589,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#66cc00" CREATED="1583689052182" ID="ID_213563477" MODIFIED="1586844968633" POSITION="left" STYLE="bubble" TEXT="Internals">
+<node BACKGROUND_COLOR="#66cc00" CREATED="1583689052182" ID="ID_213563477" MODIFIED="1588924289162" POSITION="left" STYLE="bubble" TEXT="Internals">
 <edge COLOR="#009900" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <node BACKGROUND_COLOR="#66cc00" CREATED="1583689077256" ID="ID_23093166" MODIFIED="1586720573338" STYLE="bubble" TEXT="Flutter Internals">
@@ -621,7 +621,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578678342511" FOLDED="true" ID="ID_1957277157" MODIFIED="1586852069512" POSITION="left" STYLE="bubble" TEXT="UI">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578678342511" ID="ID_1957277157" MODIFIED="1588936379345" POSITION="left" STYLE="bubble" TEXT="UI">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -650,7 +650,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578678437109" FOLDED="true" ID="ID_1010974420" MODIFIED="1586758826139" STYLE="bubble" TEXT="Widgets">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578678437109" ID="ID_1010974420" MODIFIED="1588936249929" STYLE="bubble" TEXT="Widgets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -691,7 +691,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583528027222" FOLDED="true" ID="ID_1314190524" MODIFIED="1586758826132" STYLE="bubble" TEXT="State models">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583528027222" ID="ID_1314190524" MODIFIED="1588936253018" STYLE="bubble" TEXT="State models">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
@@ -763,7 +763,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578681141721" FOLDED="true" ID="ID_1770029959" MODIFIED="1586758826132" STYLE="bubble" TEXT="Keys">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578681141721" ID="ID_1770029959" MODIFIED="1588936256788" STYLE="bubble" TEXT="Keys">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -817,11 +817,11 @@
 <icon BUILTIN="prepare"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583521957859" FOLDED="true" ID="ID_736609662" MODIFIED="1586758826133" STYLE="bubble" TEXT="SDK Components">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583521957859" ID="ID_736609662" MODIFIED="1588936259295" STYLE="bubble" TEXT="SDK Components">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583522219690" FOLDED="true" ID="ID_1740857740" MODIFIED="1586758826093" STYLE="bubble" TEXT="Text Widgets">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583522219690" ID="ID_1740857740" MODIFIED="1588936766267" STYLE="bubble" TEXT="Text Widgets">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
@@ -920,7 +920,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583529490192" FOLDED="true" ID="ID_1652755070" MODIFIED="1586758826093" STYLE="bubble">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583529490192" ID="ID_1652755070" MODIFIED="1588936742232" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -959,7 +959,7 @@
 <icon BUILTIN="prepare"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583525126806" FOLDED="true" ID="ID_774523003" MODIFIED="1586758826094" STYLE="bubble" TEXT="Interaction">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583525126806" ID="ID_774523003" MODIFIED="1588936733354" STYLE="bubble" TEXT="Interaction">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1047,11 +1047,11 @@
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="prepare"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583576079987" FOLDED="true" ID="ID_488971893" MODIFIED="1586758826094" STYLE="bubble" TEXT="Painting &amp; Effect">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583576079987" ID="ID_488971893" MODIFIED="1588936736299" STYLE="bubble" TEXT="Painting &amp; Effect">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="prepare"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583577226485" FOLDED="true" ID="ID_399828741" MODIFIED="1586758826073" STYLE="bubble" TEXT="Effects">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583577226485" ID="ID_399828741" MODIFIED="1588936738333" STYLE="bubble" TEXT="Effects">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
@@ -1139,7 +1139,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1578678425850" FOLDED="true" ID="ID_976877631" MODIFIED="1586758826140" STYLE="bubble" TEXT="Layouts">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1578678425850" ID="ID_976877631" MODIFIED="1588936264108" STYLE="bubble" TEXT="Layouts">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1173,7 +1173,7 @@
 </html></richcontent>
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1582542409351" FOLDED="true" ID="ID_72230007" MODIFIED="1586758826133" STYLE="bubble" TEXT="Containers">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1582542409351" ID="ID_72230007" MODIFIED="1588936852516" STYLE="bubble" TEXT="Containers">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
@@ -1193,7 +1193,7 @@
 <icon BUILTIN="go"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1582466944883" FOLDED="true" ID="ID_1868298283" MODIFIED="1586758826134" STYLE="bubble" TEXT="Scrolling">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1582466944883" ID="ID_1868298283" MODIFIED="1588936855846" STYLE="bubble" TEXT="Scrolling">
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <node BACKGROUND_COLOR="#ffcccc" CREATED="1582466999292" ID="ID_36244716" MODIFIED="1586720573335" STYLE="bubble" TEXT="Scrolling widgets">
@@ -1253,7 +1253,7 @@
 <icon BUILTIN="prepare"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1582543669274" FOLDED="true" ID="ID_1310506370" MODIFIED="1586758826134" STYLE="bubble" TEXT="Adaptiveness">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1582543669274" ID="ID_1310506370" MODIFIED="1588936863076" STYLE="bubble" TEXT="Adaptiveness">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1337,7 +1337,7 @@
 <icon BUILTIN="stop"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1582537834264" FOLDED="true" ID="ID_1777037614" MODIFIED="1586758826140" STYLE="bubble" TEXT="Assets">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1582537834264" ID="ID_1777037614" MODIFIED="1588936265862" STYLE="bubble" TEXT="Assets">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1592,7 +1592,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1583613276584" FOLDED="true" ID="ID_497554475" MODIFIED="1586758826182" POSITION="left" STYLE="bubble" TEXT="Persistence">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1583613276584" ID="ID_497554475" MODIFIED="1588924283333" POSITION="left" STYLE="bubble" TEXT="Persistence">
 <edge COLOR="#ffcc00" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <node BACKGROUND_COLOR="#ffffcc" CREATED="1583613304885" ID="ID_844946183" MODIFIED="1586720573333" STYLE="bubble" TEXT="Key-value data">
@@ -1628,7 +1628,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" CREATED="1583611375636" FOLDED="true" ID="ID_1297455391" MODIFIED="1586758826182" POSITION="left" STYLE="bubble" TEXT="Networking">
+<node BACKGROUND_COLOR="#ccffcc" CREATED="1583611375636" ID="ID_1297455391" MODIFIED="1588924282235" POSITION="left" STYLE="bubble" TEXT="Networking">
 <edge COLOR="#ccffcc" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 <node BACKGROUND_COLOR="#ccffcc" CREATED="1583611487253" FOLDED="true" ID="ID_1530882536" MODIFIED="1586758826140" STYLE="bubble" TEXT="HTTP">
@@ -1960,7 +1960,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#cccc00" CREATED="1583660677714" FOLDED="true" ID="ID_274777380" MODIFIED="1586761762414" POSITION="left" STYLE="bubble" TEXT="Asynchronous programming">
+<node BACKGROUND_COLOR="#cccc00" CREATED="1583660677714" ID="ID_274777380" MODIFIED="1588924280632" POSITION="left" STYLE="bubble" TEXT="Asynchronous programming">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1985,7 +1985,7 @@
 </html></richcontent>
 <edge COLOR="#666600" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
-<node BACKGROUND_COLOR="#cccc00" CREATED="1583661688674" FOLDED="true" ID="ID_232409839" MODIFIED="1586758826142" STYLE="bubble" TEXT="Async">
+<node BACKGROUND_COLOR="#cccc00" CREATED="1583661688674" ID="ID_232409839" MODIFIED="1588936189575" STYLE="bubble" TEXT="Async">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2136,7 +2136,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ff6666" CREATED="1578680448810" FOLDED="true" ID="ID_656899331" MODIFIED="1586761762430" POSITION="left" STYLE="bubble" TEXT="State Management">
+<node BACKGROUND_COLOR="#ff6666" CREATED="1578680448810" ID="ID_656899331" MODIFIED="1588924279326" POSITION="left" STYLE="bubble" TEXT="State Management">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2259,7 +2259,7 @@
 <edge COLOR="#ff9999" STYLE="bezier" WIDTH="2"/>
 <font NAME="SansSerif" SIZE="22"/>
 </node>
-<node BACKGROUND_COLOR="#ff6666" CREATED="1583685846324" FOLDED="true" ID="ID_1203151660" MODIFIED="1586758826142" STYLE="bubble" TEXT="Redux">
+<node BACKGROUND_COLOR="#ff6666" CREATED="1583685846324" ID="ID_1203151660" MODIFIED="1588936186446" STYLE="bubble" TEXT="Redux">
 <richcontent TYPE="NOTE"><html>
   <head>
     
