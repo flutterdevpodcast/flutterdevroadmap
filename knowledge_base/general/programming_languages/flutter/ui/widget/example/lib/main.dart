@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:widgetexample/lifecycle_demo.dart';
+import 'package:widgetexample/keys/key_usage_example.dart';
+import 'package:widgetexample/lifecycle/lifecycle_demo.dart';
 import 'package:widgetexample/rebuild_test/rebuild_test.dart';
-import 'package:widgetexample/stateful_demo.dart';
-import 'package:widgetexample/stateless_demo.dart';
+import 'package:widgetexample/stateless_stateful_demo/stateful_demo.dart';
+import 'package:widgetexample/stateless_stateful_demo/stateless_demo.dart';
+
+import 'keys/keys_types.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +25,9 @@ class MyApp extends StatelessWidget {
 //        body: StatelessDemo(),
 //        body: StatefulDemo(),
 //        body: RebuildTest(),
-        body: LifecycleDemo(),
+//        body: LifecycleDemo(),
+//        body: KeyDemo(),
+        body: KeyTypesDemo(),
       ),
     );
   }
