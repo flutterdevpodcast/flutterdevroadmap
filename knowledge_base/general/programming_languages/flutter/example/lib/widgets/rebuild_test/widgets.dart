@@ -9,8 +9,6 @@ class TopWidget extends StatelessWidget {
       child: CenterWidget(),
     );
   }
-
-
 }
 
 class CenterWidget extends StatefulWidget {

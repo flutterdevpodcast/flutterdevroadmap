@@ -5,4 +5,5 @@
 на Flutter
 
 ## Оглавление
-[widget](widget/widget.md) - про виджеты во Flutter.
+[widget](widget/widget.md) - про виджеты во Flutter
+[layout](layout/layout.md) - про разметку во Flutter

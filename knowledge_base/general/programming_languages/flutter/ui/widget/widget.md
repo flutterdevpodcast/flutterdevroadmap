@@ -268,4 +268,4 @@ class LifecycleDemoState extends State<LifecycleDemo>
 >- https://www.youtube.com/watch?v=996ZgFRENMs (EN) - доклад от Google про WidgetTree, ElementTree и RenderObject
 
 ## Примеры
-[widgets_example](example/lib/main.dart)
+[widgets_example](../../example/lib/main.dart)

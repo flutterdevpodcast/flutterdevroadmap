@@ -1,7 +1,29 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:widgetexample/keys/global_key_demo.dart';
-import 'package:widgetexample/keys/key_usage_example.dart';
+import 'package:widgetexample/widgets/keys/key_usage_example.dart';
+
+void main() {
+  runApp(KeyTypesDemoApp());
+}
+
+class KeyTypesDemoApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Widgets Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("KeyTypesDemo"),
+        ),
+        body: KeyTypesDemo(),
+      ),
+    );
+  }
+}
 
 class KeyTypesDemo extends StatefulWidget {
   @override
