@@ -1,9 +1,9 @@
 ## Оглавление
 [Назад к ui](../ui.md)
 
-[containers](containers/containers.md) - про контейнеры
+[containers](containers/containers.md) - подробно про контейнеры
 
-[scrolling](scrolling/scrolling.md) - виджеты с прокруткой
+[scrolling](scrolling/scrolling.md) - подробно виджеты с прокруткой
 
 ## Ключевые ресурсы
 >- https://flutter.dev/docs/development/ui/widgets/layout (EN) - про разметку
