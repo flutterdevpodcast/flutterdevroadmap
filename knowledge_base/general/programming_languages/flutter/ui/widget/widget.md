@@ -3,6 +3,12 @@
 # Widget
 В этом разделе собраны материалы про виджеты
 
+## Оглавление
+[key](key/key.md) - про ключи
+
+[sdk_component](sdk_components/sdk_components.md) - про стандартные компоненты flutter sdk,
+на которых строится пользовательский интерфейс(кнопки, картинки, чекбоксы, свитчеры, свайперы и тд)
+
 ## Ключевые ресурсы
 >- https://flutter.dev/docs/development/ui/widgets-intro (EN) - Офф. урок про виджеты
 >- https://flutter.dev/docs/development/ui/widgets (EN) - стандартный каталог виджетов

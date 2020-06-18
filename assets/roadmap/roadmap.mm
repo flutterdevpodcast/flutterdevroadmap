@@ -920,7 +920,7 @@
 <font NAME="SansSerif" SIZE="22"/>
 <icon BUILTIN="go"/>
 </node>
-<node BACKGROUND_COLOR="#ffcccc" CREATED="1583529490192" ID="ID_1652755070" MODIFIED="1588936742232" STYLE="bubble">
+<node BACKGROUND_COLOR="#ffcccc" CREATED="1583529490192" FOLDED="true" ID="ID_1652755070" MODIFIED="1592391467030" STYLE="bubble">
 <richcontent TYPE="NODE"><html>
   <head>
     
